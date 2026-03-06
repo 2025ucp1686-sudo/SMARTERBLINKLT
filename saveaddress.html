@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Save Address</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Save Your Address</h2>
+
+<form action="/saveaddress" method="POST">
+
+<input name="home" placeholder="House / Flat No">
+
+<br><br>
+
+<input name="area" placeholder="Area">
+
+<br><br>
+
+<input name="city" placeholder="City">
+
+<br><br>
+
+<input name="nearby" placeholder="Nearby Place">
+
+<br><br>
+
+<input name="pincode" placeholder="Pincode">
+
+<br><br>
+
+<button type="submit">Save Address</button>
+
+</form>
+
+<br>
+
+<a href="/">Back</a>
+
+</div>
+
+</body>
+
+</html>

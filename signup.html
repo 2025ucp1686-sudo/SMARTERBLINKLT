@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Signup</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Create Account</h2>
+
+<form action="/signup" method="POST">
+
+<select name="type">
+<option value="buyer">Buyer</option>
+<option value="seller">Seller</option>
+</select>
+
+<br><br>
+
+<input name="name" placeholder="Name">
+
+<br><br>
+
+<input name="mobile" placeholder="Mobile">
+
+<br><br>
+
+<input type="password" name="password" placeholder="Password">
+
+<br><br>
+
+<button type="submit">Signup</button>
+
+</form>
+
+<br>
+
+<a href="/signup_face">
+<button style="background:green;color:white;padding:10px 20px;border:none;border-radius:5px;">
+Signup with Face
+</button>
+</a>
+
+</div>
+
+</body>
+</html>
