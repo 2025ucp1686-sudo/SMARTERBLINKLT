@@ -1,4 +1,4 @@
-# SMARTERBLINKIT
+# SMARTERBLINKLT
 
 AI based marketplace that understands user intent.
 
